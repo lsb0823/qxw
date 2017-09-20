@@ -1,0 +1,14 @@
+---- g_led_timer_id Matches (13 in 2 files) ----
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):extern int8_t g_led_timer_id;
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):			if (g_led_timer_id == -1)
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):				g_led_timer_id = set_app_timer(TIMER_TYPE_NORMAL,500,app_led_ind_set);
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):extern int8_t g_led_timer_id;
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):						if (g_led_timer_id == -1)
+Apps.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\apps\main):							g_led_timer_id = set_app_timer(TIMER_TYPE_NORMAL,500,app_led_ind_set);
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):int8_t g_led_timer_id = -1;
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):extern int8_t g_led_timer_id;
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):	if (g_led_timer_id == -1)
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):		g_led_timer_id = set_app_timer(TIMER_TYPE_NORMAL,500,app_led_ind_set);
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app): extern int8_t g_led_timer_id;
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):			if (g_led_timer_id == -1)
+App_bt.cpp (e:\lushengbao\case\wt200s\jwh\e3-ay\release1.14.rc4\services\bt_app):				g_led_timer_id = set_app_timer(TIMER_TYPE_NORMAL,500,app_led_ind_set);
